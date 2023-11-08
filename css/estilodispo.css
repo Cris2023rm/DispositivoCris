@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box
+}
+
+body {
+    background-color: rgb(222, 219, 219);
+  
+}
+
+header {
+    position: relative;  
+}
+header img{
+    width: 100%;
+}
+
+header nav ul{
+    position: absolute;  
+    top: 50px;
+    width: 100%;
+    right: ;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-size:28px;
+    gap: 30px;
+}
+
+header a {
+    color:white;
+}
+
+.cajamovible {
+    width: 120px;
+    height: 100px;
+    border-radius: 40%;
+    background-color: rgb(163, 158, 129,0.4);
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    font-size: 1.2em;
+    padding: 1%;
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+.cajamovible li a {
+    color:black;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 3em; 
+}
+
+#descripcion p {
+font-size:1.5em ;   
+}
+
+#caracteristicas table {
+    font-size:1.3em ;
+    margin-left: 2.5%;
+    margin-right: 2.5%;   
+}
+
+table td {
+    padding: 15px;
+    font-size: 20px;
+}
+
+table tr:hover {
+    background: rgb(244, 230, 230);
+}
+
+#fotos img {
+    width:400px;
+    height:400px;
+    margin: 30px;;
+}
+
+
+
+.anillo {
+    width: 29%;
+    display: inline-block;
+    
+}
+
+.anillo video {
+    height: 300px;
+    margin: 5%;
+    
+}
+
+.anillo button {
+    display: block;
+    margin: 0 auto;
+    font-size: 2em;
+    
+}
+
+.anillo p {
+    text-align: left;
+    margin: 5%;
+    font-size: 1.5em;
+    color: black;
+}
+
+footer {
+   margin: 50px;
+    background-color: #7d7979;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 2rem;
+}
+
+.envio {
+    font-size: 1.5em;
+    border-radius: 30px;
+}
+
+#descripcion {
+    margin-left:8%; 
+    margin-right:8%; 
+}
+
+#funionamiento {
+    margin-left:8%; 
+    margin-right:8%;    
+}
+
+#experiencia {
+    margin-left:8%; 
+    margin-right:8%; 
+}
+
+#info {
+    margin-left:5%; 
+    margin-right:5%;  
+}
+
+
+
+
+#funionamiento p {
+    font-size: 1.5em;
+    padding: 1.5%;
+    border: 3px solid rgb(115, 86, 49);
+    border-radius: 10%;
+
+}
+   
+
+h4 {
+    font-size: 1.8em;
+    color: rgb(115, 86, 49);
+}
+
+#movil{
+    height: 450px;
+    display: flex;
+    justify-content: center; 
+}
+
+.videos {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;   
+}
+
+
